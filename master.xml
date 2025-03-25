@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+	
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" /> 
+		<listener class-name="utilities.AllureReportManager"/>
+	</listeners>	
+	
+  <test name="Master Test">  	
+  	<parameter name="os" value="windows"/>
+	<parameter name="browser" value="chrome"/>  
+ 	 
+ 	 <groups>
+		<run>
+			<include name="master"/>  
+			<!-- <include name="sanity"/> -->
+			<!-- <include name="regression"/> -->
+		</run>
+ 	</groups>	
+	
+    <classes>
+      <class name="testCases.TS_001_AccountRegistrationTest"/>
+      <class name="testCases.TS_002_LoginTest"/>
+      <class name="testCases.TS_003_LoginDDTest"/>
+    </classes>
+  </test> <!-- Master Test -->  
+</suite> <!-- Master Suite -->

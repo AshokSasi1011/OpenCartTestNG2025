@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grouping Suite">
+
+	<listeners>
+		 <listener class-name="utilities.ExtentReportManager" />
+		<listener class-name="utilities.AllureReportManager"/>
+	</listeners>	
+  
+  <test name="Grouping Test">
+  
+  	
+  	<parameter name="os" value="windows"/>
+	<parameter name="browser" value="firefox"/>
+	
+	<groups>
+		<run>
+			<!--  <include name="master"/>  -->
+			<include name="sanity"/>
+			<!-- <include name="regression"/> -->
+		</run>
+	</groups>
+	
+    <classes>      
+      <class name="testCases.TS_002_LoginTest"/>
+      
+    </classes>
+  </test> <!-- Grouping Test -->
+</suite> <!-- Grouping Suite -->

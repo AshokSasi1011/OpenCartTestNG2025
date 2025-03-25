@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grouping Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.AllureReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Grouping Test(failed)">
+    <parameter name="os" value="windows10"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TS_002_LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TS_002_LoginTest -->
+    </classes>
+  </test> <!-- Grouping Test(failed) -->
+</suite> <!-- Failed suite [Grouping Suite] -->

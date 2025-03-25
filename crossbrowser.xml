@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Suite" thread-count="5" parallel="tests">
+  
+  <test name="Cross Browser Test Using Chrome" thread-count="5">
+  	<parameter name="os" value="windows10"/>
+  	<parameter name="browser" value="chrome"/>
+    	<classes>
+      		<class name="testCases.TS_002_LoginTest"/>
+    	</classes>
+  </test> <!-- Cross Browser Test -->
+  
+  <test name="Cross Browser Test Using Firefox" thread-count="5">
+  	<parameter name="os" value="mac"/>
+  	<parameter name="browser" value="firefox"/>
+    	<classes>
+      		<class name="testCases.TS_002_LoginTest"/>
+    	</classes>
+  </test> <!-- Cross Browser Test -->
+  
+</suite> <!-- Cross Browser Suite -->

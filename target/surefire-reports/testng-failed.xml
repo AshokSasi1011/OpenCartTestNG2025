@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+    <listener class-name="utilities.AllureReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Master Test(failed)" verbose="0">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="master"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TS_002_LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TS_002_LoginTest -->
+      <class name="testCases.TS_003_LoginDDTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginDDT" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- testCases.TS_003_LoginDDTest -->
+    </classes>
+  </test> <!-- Master Test(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->
