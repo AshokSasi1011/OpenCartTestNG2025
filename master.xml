@@ -23,6 +23,7 @@
       <class name="testCases.TS_001_AccountRegistrationTest"/>
       <class name="testCases.TS_002_LoginTest"/>
       <class name="testCases.TS_003_LoginDDTest"/>
+      <class name="testCases.TS_004_SearchFunctionality"/>
     </classes>
   </test> <!-- Master Test -->  
 </suite> <!-- Master Suite -->

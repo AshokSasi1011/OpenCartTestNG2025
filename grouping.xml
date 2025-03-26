@@ -11,7 +11,7 @@
   
   	
   	<parameter name="os" value="windows"/>
-	<parameter name="browser" value="firefox"/>
+	<parameter name="browser" value="chrome"/>
 	
 	<groups>
 		<run>
@@ -22,7 +22,7 @@
 	</groups>
 	
     <classes>      
-      <class name="testCases.TS_002_LoginTest"/>
+      <class name="testCases.TS_004_SearchFunctionality"/>
       
     </classes>
   </test> <!-- Grouping Test -->

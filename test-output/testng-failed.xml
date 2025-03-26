@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Grouping Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
     <listener class-name="utilities.AllureReportManager"/>
   </listeners>
-  <test thread-count="5" name="Master Test(failed)">
+  <test thread-count="5" name="Grouping Test(failed)">
     <parameter name="os" value="windows"/>
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="master"/>
+        <include name="sanity"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TS_002_LoginTest">
+      <class name="testCases.TS_004_SearchFunctionality">
         <methods>
-          <include name="loginTest"/>
+          <include name="searchProductTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.TS_002_LoginTest -->
-      <class name="testCases.TS_003_LoginDDTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="loginDDT" invocation-numbers="2"/>
-        </methods>
-      </class> <!-- testCases.TS_003_LoginDDTest -->
+      </class> <!-- testCases.TS_004_SearchFunctionality -->
     </classes>
-  </test> <!-- Master Test(failed) -->
-</suite> <!-- Failed suite [Master Suite] -->
+  </test> <!-- Grouping Test(failed) -->
+</suite> <!-- Failed suite [Grouping Suite] -->
