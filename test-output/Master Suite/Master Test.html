@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Master Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 23 12:03:50 IST 2025</td>
+<td>Started on:</td><td>Wed Mar 26 17:52:17 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>97 seconds (97817 ms)</td>
+<tr><td>Total time:</td><td>69 seconds (69465 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>master </td>
 </tr><tr>
@@ -81,8 +81,8 @@ function toggleAllBoxes() {
 	at org.junit.Assert.assertTrue(Assert.java:42)
 	at org.junit.Assert.assertTrue(Assert.java:53)
 	at testCases.TS_003_LoginDDTest.loginDDT(TS_003_LoginDDTest.java:59)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1941657405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1941657405'><pre>java.lang.AssertionError
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace753214674", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace753214674'><pre>java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
 	at org.junit.Assert.assertTrue(Assert.java:53)
@@ -114,15 +114,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
 <td>11</td>
-<td>testCases.TS_003_LoginDDTest@27adc16e</td></tr>
+<td>testCases.TS_003_LoginDDTest@5c669da8</td></tr>
 <tr>
 <td title='testCases.TS_002_LoginTest.loginTest()'><b>loginTest</b><br>Test class: testCases.TS_002_LoginTest</td>
 <td><div><pre>java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.fail(Assert.java:96)
 	at testCases.TS_002_LoginTest.loginTest(TS_002_LoginTest.java:58)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace748316439", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace748316439'><pre>java.lang.AssertionError
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace890160784", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace890160784'><pre>java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.fail(Assert.java:96)
 	at testCases.TS_002_LoginTest.loginTest(TS_002_LoginTest.java:58)
@@ -153,7 +153,44 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
 <td>2</td>
-<td>testCases.TS_002_LoginTest@3b74ac8</td></tr>
+<td>testCases.TS_002_LoginTest@6337c201</td></tr>
+<tr>
+<td title='testCases.TS_004_SearchFunctionality.searchProductTest()'><b>searchProductTest</b><br>Test class: testCases.TS_004_SearchFunctionality</td>
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TS_004_SearchFunctionality.searchProductTest(TS_004_SearchFunctionality.java:50)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace387410712", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace387410712'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at testCases.TS_004_SearchFunctionality.searchProductTest(TS_004_SearchFunctionality.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TS_004_SearchFunctionality@31920ade</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -165,28 +202,28 @@ function toggleAllBoxes() {
 <tr>
 <td title='testCases.TS_003_LoginDDTest.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TS_003_LoginDDTest<br>Parameters: asasikumar0505@gmail.com, preethi04, valid</td>
 <td></td>
-<td>2</td>
-<td>testCases.TS_003_LoginDDTest@27adc16e</td></tr>
+<td>1</td>
+<td>testCases.TS_003_LoginDDTest@5c669da8</td></tr>
 <tr>
 <td title='testCases.TS_003_LoginDDTest.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TS_003_LoginDDTest<br>Parameters: anniyanvikram45@gmail.com, preethi34, invalid</td>
 <td></td>
 <td>11</td>
-<td>testCases.TS_003_LoginDDTest@27adc16e</td></tr>
+<td>testCases.TS_003_LoginDDTest@5c669da8</td></tr>
 <tr>
 <td title='testCases.TS_003_LoginDDTest.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TS_003_LoginDDTest<br>Parameters: demo@tempmail.net, preethi05, invalid</td>
 <td></td>
-<td>12</td>
-<td>testCases.TS_003_LoginDDTest@27adc16e</td></tr>
+<td>10</td>
+<td>testCases.TS_003_LoginDDTest@5c669da8</td></tr>
 <tr>
 <td title='testCases.TS_003_LoginDDTest.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TS_003_LoginDDTest<br>Parameters: narmathasivalingam23@gmail.com, preethi05, valid</td>
 <td></td>
 <td>1</td>
-<td>testCases.TS_003_LoginDDTest@27adc16e</td></tr>
+<td>testCases.TS_003_LoginDDTest@5c669da8</td></tr>
 <tr>
 <td title='testCases.TS_001_AccountRegistrationTest.registerAccountTest()'><b>registerAccountTest</b><br>Test class: testCases.TS_001_AccountRegistrationTest</td>
 <td></td>
-<td>7</td>
-<td>testCases.TS_001_AccountRegistrationTest@55cf0d14</td></tr>
+<td>5</td>
+<td>testCases.TS_001_AccountRegistrationTest@490caf5f</td></tr>
 </table><p>
 </body>
 </html>

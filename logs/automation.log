@@ -1,52 +1,38 @@
-2025-03-24 16:20:46 INFO  TS_001_AccountRegistrationTest:27 - *****Starting Account Registration Test*****
-2025-03-24 16:20:52 INFO  TS_001_AccountRegistrationTest:49 - *****Validate the account creation confirmation message*****
-2025-03-24 16:20:52 INFO  TS_001_AccountRegistrationTest:57 - *****Test Passed*****
-2025-03-24 16:20:57 INFO  TS_002_LoginTest:26 - *****Starting Login Account Test*****
-2025-03-24 16:20:59 INFO  TS_002_LoginTest:43 - *****Validate the Presence of My Account*****
-2025-03-24 16:20:59 INFO  TS_002_LoginTest:53 - java.lang.AssertionError
-2025-03-24 16:21:00 INFO  TS_002_LoginTest:56 - *****Test Failed*****
-2025-03-24 16:21:17 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:21:20 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:21:21 INFO  TS_003_LoginDDTest:52 - *****Test Passed*****
-2025-03-24 16:21:21 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
-2025-03-24 16:21:21 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:21:23 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:21:33 INFO  TS_003_LoginDDTest:71 - *****Test Passed*****
-2025-03-24 16:21:33 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
-2025-03-24 16:21:33 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:21:34 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:21:45 INFO  TS_003_LoginDDTest:57 - *****Test Failed*****
-2025-03-24 16:21:46 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:21:47 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:21:57 INFO  TS_003_LoginDDTest:71 - *****Test Passed*****
-2025-03-24 16:21:57 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
-2025-03-24 16:21:57 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:21:59 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:22:00 INFO  TS_003_LoginDDTest:52 - *****Test Passed*****
-2025-03-24 16:22:00 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
-2025-03-24 16:41:44 INFO  TS_001_AccountRegistrationTest:27 - *****Starting Account Registration Test*****
-2025-03-24 16:41:50 INFO  TS_001_AccountRegistrationTest:49 - *****Validate the account creation confirmation message*****
-2025-03-24 16:41:50 INFO  TS_001_AccountRegistrationTest:57 - *****Test Passed*****
-2025-03-24 16:41:56 INFO  TS_002_LoginTest:26 - *****Starting Login Account Test*****
-2025-03-24 16:41:57 INFO  TS_002_LoginTest:43 - *****Validate the Presence of My Account*****
-2025-03-24 16:41:59 INFO  TS_002_LoginTest:53 - java.lang.AssertionError
-2025-03-24 16:42:00 INFO  TS_002_LoginTest:56 - *****Test Failed*****
-2025-03-24 16:42:13 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:42:15 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:42:16 INFO  TS_003_LoginDDTest:52 - *****Test Passed*****
-2025-03-24 16:42:16 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
-2025-03-24 16:42:16 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:42:18 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:42:28 INFO  TS_003_LoginDDTest:71 - *****Test Passed*****
-2025-03-24 16:42:28 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
-2025-03-24 16:42:28 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:42:29 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:42:40 INFO  TS_003_LoginDDTest:57 - *****Test Failed*****
-2025-03-24 16:42:40 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:42:41 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:42:52 INFO  TS_003_LoginDDTest:71 - *****Test Passed*****
-2025-03-24 16:42:52 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
-2025-03-24 16:42:52 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
-2025-03-24 16:42:53 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
-2025-03-24 16:42:54 INFO  TS_003_LoginDDTest:52 - *****Test Passed*****
-2025-03-24 16:42:54 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
+2025-03-26 17:52:29 INFO  TS_001_AccountRegistrationTest:27 - *****Starting Account Registration Test*****
+2025-03-26 17:52:34 INFO  TS_001_AccountRegistrationTest:49 - *****Validate the account creation confirmation message*****
+2025-03-26 17:52:34 INFO  TS_001_AccountRegistrationTest:57 - *****Test Passed*****
+2025-03-26 17:52:38 INFO  TS_002_LoginTest:26 - *****Starting Login Account Test*****
+2025-03-26 17:52:39 INFO  TS_002_LoginTest:43 - *****Validate the Presence of My Account*****
+2025-03-26 17:52:39 INFO  TS_002_LoginTest:53 - java.lang.AssertionError
+2025-03-26 17:52:40 INFO  TS_002_LoginTest:56 - *****Test Failed*****
+2025-03-26 17:52:46 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
+2025-03-26 17:52:47 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
+2025-03-26 17:52:47 INFO  TS_003_LoginDDTest:52 - *****Test Passed*****
+2025-03-26 17:52:47 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
+2025-03-26 17:52:47 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
+2025-03-26 17:52:48 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
+2025-03-26 17:52:59 INFO  TS_003_LoginDDTest:71 - *****Test Passed*****
+2025-03-26 17:52:59 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
+2025-03-26 17:52:59 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
+2025-03-26 17:53:00 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
+2025-03-26 17:53:10 INFO  TS_003_LoginDDTest:57 - *****Test Failed*****
+2025-03-26 17:53:10 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
+2025-03-26 17:53:11 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
+2025-03-26 17:53:21 INFO  TS_003_LoginDDTest:71 - *****Test Passed*****
+2025-03-26 17:53:21 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
+2025-03-26 17:53:21 INFO  TS_003_LoginDDTest:27 - *****Starting Login Account Test Using DataDriven*****
+2025-03-26 17:53:22 INFO  TS_003_LoginDDTest:42 - *****Validate the Presence of My Account*****
+2025-03-26 17:53:23 INFO  TS_003_LoginDDTest:52 - *****Test Passed*****
+2025-03-26 17:53:23 INFO  TS_003_LoginDDTest:85 - *****Finished Execution of Login DDT Test*****
+2025-03-26 17:53:25 INFO  TS_004_SearchFunctionality:26 - ****Search Product Test is Started*****
+2025-03-26 17:53:26 INFO  TS_004_SearchFunctionality:48 - ****Search Product Test is Failed*****
+2025-03-26 17:55:30 INFO  TS_004_SearchFunctionality:26 - ****Search Product Test is Started*****
+2025-03-26 17:55:30 INFO  TS_004_SearchFunctionality:48 - ****Search Product Test is Failed*****
+2025-03-26 17:57:42 INFO  TS_004_SearchFunctionality:26 - ****Search Product Test is Started*****
+2025-03-26 17:57:42 INFO  TS_004_SearchFunctionality:48 - ****Search Product Test is Failed*****
+2025-03-26 21:05:05 INFO  TS_004_SearchFunctionality:26 - ****Search Product Test is Started*****
+2025-03-26 21:05:09 INFO  TS_004_SearchFunctionality:36 - ****Search Product Test is Passed*****
+2025-03-26 21:05:49 INFO  TS_004_SearchFunctionality:26 - ****Search Product Test is Started*****
+2025-03-26 21:05:50 INFO  TS_004_SearchFunctionality:36 - ****Search Product Test is Passed*****
+2025-03-26 21:06:43 INFO  TS_004_SearchFunctionality:26 - ****Search Product Test is Started*****
+2025-03-26 21:06:48 INFO  TS_004_SearchFunctionality:37 - ****Search Product Test is Passed*****

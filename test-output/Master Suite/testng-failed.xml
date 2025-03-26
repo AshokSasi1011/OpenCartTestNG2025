@@ -7,20 +7,13 @@
   </listeners>
   <test thread-count="5" name="Master Test(failed)">
     <parameter name="os" value="windows"/>
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <groups>
       <run>
         <include name="master"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TS_002_LoginTest">
-        <methods>
-          <include name="loginTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testCases.TS_002_LoginTest -->
       <class name="testCases.TS_003_LoginDDTest">
         <methods>
           <include name="setUp"/>
@@ -28,6 +21,20 @@
           <include name="loginDDT" invocation-numbers="2"/>
         </methods>
       </class> <!-- testCases.TS_003_LoginDDTest -->
+      <class name="testCases.TS_004_SearchFunctionality">
+        <methods>
+          <include name="searchProductTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TS_004_SearchFunctionality -->
+      <class name="testCases.TS_002_LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TS_002_LoginTest -->
     </classes>
   </test> <!-- Master Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
