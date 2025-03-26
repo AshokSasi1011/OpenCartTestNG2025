@@ -68,6 +68,9 @@ public class BaseClass {
 			else if(os.equalsIgnoreCase("mac")) {
 				capabilities.setPlatform(Platform.MAC);
 			}
+			else if(os.equalsIgnoreCase("linux")) {
+				capabilities.setPlatform(Platform.LINUX);
+			}
 			else {
 				System.out.println("Incorrect OS Selection");
 				return;

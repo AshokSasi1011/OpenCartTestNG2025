@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Docker Grid Suite">
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" /> 
+		<listener class-name="utilities.AllureReportManager"/>
+	</listeners>	
+	
+	
+  <test name="Linux Test Chrome">
+  
+  <parameter name="os" value="Linux"/>
+	<parameter name="browser" value="chrome"/>  
+ 	 
+ 	 <groups>
+		<run>
+			<include name="master"/>  
+			<!-- <include name="sanity"/> -->
+			<!-- <include name="regression"/> -->
+		</run>
+ 	</groups>	
+ 	
+    <classes>
+      <class name="testCases.TS_001_AccountRegistrationTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Linux Test Firefox">
+  
+  <parameter name="os" value="Linux"/>
+	<parameter name="browser" value="firefox"/>  
+ 	 
+ 	 <groups>
+		<run>
+			<include name="master"/>  
+			<!-- <include name="sanity"/> -->
+			<!-- <include name="regression"/> -->
+		</run>
+ 	</groups>	
+ 	
+    <classes>
+      <class name="testCases.TS_002_LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
